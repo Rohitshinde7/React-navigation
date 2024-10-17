@@ -80,10 +80,11 @@ function removeDuplicate(originalStr) {
 removeDuplicate("AAABBBCCCDDD");
 
 console.log("***************************************************");
-console.log("");
+console.log(" Git Demo");
  
 
 console.log("this is feature branch code");
 console.log("need to add this code in main branch");
 
-console.log("this is feature branch code 2");
+console.log("New code added for practice..");
+console.log("")
