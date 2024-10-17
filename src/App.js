@@ -6,8 +6,7 @@ import About from "./Router/About";
 import Contact from "./Router/Contact";
 import Navbar from "./Router/Navbar";
 import UserStatus from "./customHook/UserStatus";
-//import { Suspense } from 'react';
-//import DropDownPage from './Pages/DropDownPage';
+
 
 function App() {
   const userStatus = UserStatus();

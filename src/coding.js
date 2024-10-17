@@ -78,4 +78,7 @@ function removeDuplicate(originalStr) {
   console.log("String after Duplicate removed : ", finalStr);
 }
 removeDuplicate("AAABBBCCCDDD");
+
+console.log("***************************************************");
+console.log("");
  
