@@ -88,3 +88,27 @@ console.log("need to add this code in main branch");
 
 console.log("New code added for practice..");
 console.log("")
+
+console.log("***************************************************");
+console.log(" Removed duplicate array elements from array");
+
+const numArr = [1,2,3,4,5,6,7,3,6,2,8];
+
+console.log(numArr)
+
+let numArr1  = []
+let numArr2 = []
+
+
+for(let i = 0; i<numArr.length; i++){
+    if(!numArr1.includes(numArr[i])){
+numArr1.push(numArr[i])
+    }
+    else{
+        numArr2.push(numArr[i])
+    }
+}
+
+
+console.log(numArr1)
+console.log(numArr2)
