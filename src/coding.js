@@ -82,3 +82,6 @@ removeDuplicate("AAABBBCCCDDD");
 console.log("***************************************************");
 console.log("");
  
+
+console.log("this is feature branch code");
+console.log("need to add this code in main branch");
