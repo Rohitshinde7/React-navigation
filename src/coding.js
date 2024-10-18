@@ -79,26 +79,16 @@ function removeDuplicate(originalStr) {
 }
 removeDuplicate("AAABBBCCCDDD");
 
-console.log("***************************************************");
-console.log(" Git Demo");
  
-
-console.log("this is feature branch code");
-console.log("need to add this code in main branch");
-
-console.log("New code added for practice..");
-console.log("")
 
 console.log("***************************************************");
 console.log(" Removed duplicate array elements from array");
 
 const numArr = [1,2,3,4,5,6,7,3,6,2,8];
-
 console.log(numArr)
 
 let numArr1  = []
 let numArr2 = []
-
 
 for(let i = 0; i<numArr.length; i++){
     if(!numArr1.includes(numArr[i])){
@@ -108,7 +98,21 @@ numArr1.push(numArr[i])
         numArr2.push(numArr[i])
     }
 }
-
-
 console.log(numArr1)
 console.log(numArr2)
+
+console.log("***************************************************");
+console.log(" avg of all positive numbers in array");
+
+const givenArr = [-2,-3,0,-7,25,12,-11]
+let sum = 0;
+let count = 0;
+
+for(let i = 0; i<givenArr.length; i++){
+    if(givenArr[i] > 0){
+        count++
+        sum  = sum + givenArr[i];
+    }
+}
+let avg = sum/count;
+console.log(avg)
